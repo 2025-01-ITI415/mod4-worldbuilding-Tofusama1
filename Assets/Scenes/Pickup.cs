@@ -106,7 +106,7 @@ public class FPSPlayerController : MonoBehaviour
     {
         if (countText != null)
         {
-            countText.text = "Count: " + count + " / " + totalPickups;
+            countText.text = "Coins Collected: " + count + " / " + totalPickups;
         }
     }
 }
